@@ -1,6 +1,6 @@
-# Guardian Frontend
+# AI cyber attack prevention Frontend
 
-Web dashboard for **Guardian**, a real-time account security companion. It shows the security status of your connected accounts, a timeline of events, and raises a full-screen "Was this you?" alert with a siren when something risky happens.
+Web dashboard for **AI cyber attack prevention**, a real-time account security companion. It shows the security status of your connected accounts, a timeline of events, and raises a full-screen "Was this you?" alert with a siren when something risky happens.
 
 ## Tech stack
 
@@ -23,7 +23,7 @@ Web dashboard for **Guardian**, a real-time account security companion. It shows
 ## Project structure
 
 ```
-guardian-frontend/
+AI cyber attack prevention-frontend/
 ├── src/
 │   ├── middleware.ts            redirects to /login when there is no session cookie
 │   ├── app/
@@ -47,7 +47,7 @@ guardian-frontend/
 
 ## Getting started
 
-Start the Guardian backend first (it runs on port 4000 by default).
+Start the AI cyber attack prevention backend first (it runs on port 4000 by default).
 
 ```bash
 npm install
@@ -88,6 +88,6 @@ The backend's `CLIENT_URL` must match this app's origin exactly (`http://localho
 
 ## Notes
 
-- The siren only plays while the tab is open and the page has had at least one click. For alerts that reach you while the browser is closed, use the Guardian Android app.
+- The siren only plays while the tab is open and the page has had at least one click. For alerts that reach you while the browser is closed, use the AI cyber attack prevention Android app.
 - Platforms like Instagram don't expose login events through public APIs. Real events come from the Android app reading security notifications, while the simulate panel covers demos. Remove `SimulateEvent.tsx` and its one line in the dashboard page before a production release.
 - The cookie is set on the backend's host. Locally that works across ports on `localhost`. In production, serve the frontend and backend under the same parent domain, or configure the cookie with `SameSite=None; Secure`.

@@ -30,7 +30,7 @@ function Header({ user }: { user: User }) {
   return (
     <header className="border-b border-slate-800">
       <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-4 px-6 py-3">
-        <span className="font-bold">Guardian</span>
+        <span className="font-bold">AI cyber attack prevention</span>
         <nav className="flex flex-1 gap-1 text-sm">
           {LINKS.map(([label, href]) => (
             <Link

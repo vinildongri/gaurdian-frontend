@@ -50,7 +50,7 @@ export default function AccountsPage() {
           <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Username, email or phone" required className="input" />
           <button className="btn-primary">Add</button>
         </div>
-        <p className="text-xs text-slate-400">Guardian never asks for or stores your passwords for these services.</p>
+        <p className="text-xs text-slate-400">AI cyber attack prevention never asks for or stores your passwords for these services.</p>
         {formError && <p className="text-sm text-red-400">{formError}</p>}
       </form>
 

@@ -38,8 +38,8 @@ export default function AuthForm({ mode }: { mode: "login" | "register" }) {
     <main className="flex min-h-screen items-center justify-center p-4">
       <form onSubmit={onSubmit} className="card w-full max-w-sm space-y-4">
         <div>
-          <h1 className="text-2xl font-bold">Guardian</h1>
-          <p className="text-sm text-slate-400">{isLogin ? "Sign in to your security dashboard" : "Create your Guardian account"}</p>
+          <h1 className="text-2xl font-bold">AI cyber attack prevention</h1>
+          <p className="text-sm text-slate-400">{isLogin ? "Sign in to your security dashboard" : "Create your AI cyber attack prevention account"}</p>
         </div>
 
         {!isLogin && <input name="name" placeholder="Name" required className="input" />}
