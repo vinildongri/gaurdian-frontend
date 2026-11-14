@@ -91,3 +91,4 @@ The backend's `CLIENT_URL` must match this app's origin exactly (`http://localho
 - The siren only plays while the tab is open and the page has had at least one click. For alerts that reach you while the browser is closed, use the AI cyber attack prevention Android app.
 - Platforms like Instagram don't expose login events through public APIs. Real events come from the Android app reading security notifications, while the simulate panel covers demos. Remove `SimulateEvent.tsx` and its one line in the dashboard page before a production release.
 - The cookie is set on the backend's host. Locally that works across ports on `localhost`. In production, serve the frontend and backend under the same parent domain, or configure the cookie with `SameSite=None; Secure`.# ai-cyber-attack-prevention
+# ai-cyber-attack-prevention
